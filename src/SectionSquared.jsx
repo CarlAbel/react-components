@@ -1,23 +1,22 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
-const TravelComponent = (props) => {
+const LeisureComponent = (props) => {
   const styles = {
+    section: css`
+      display: flex;
+      flex-direction: row;
+    `,
     article: css`
-      margin: 30px;
-      padding: 30px;
-      width: 33%;
-      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
+      padding: 10px;
+      margin: 20px;
+      width: 100%;
       border: solid 1px red;
       border-radius: 24px;
-
-      & span {
-        text-transform: capitalize;
-        font-size: 26px;
-        font-weight: bold;
-        color: darkblue;
-      }
       & h2 {
         font-size: 32px;
       }
@@ -27,16 +26,20 @@ const TravelComponent = (props) => {
         color: #3a3a3a;
       }
     `,
+    placeholderIMG: css`
+      border-radius: 24px;
+    `,
   };
 
   const data = props.data;
 
   return (
-    <section>
+    <section css={styles.section}>
       {data.map((section) => (
         <article css={styles.article} key={section.id}>
-          <img src="#" alt="#" />
-          <span>{section.tag}</span>
+          <div css={styles.placeholderIMG}>
+            <img src="#" alt="#" />
+          </div>
           <h2>{section.title}</h2>
           <p>{section.body}</p>
         </article>
@@ -44,4 +47,5 @@ const TravelComponent = (props) => {
     </section>
   );
 };
-export default TravelComponent;
+
+export default LeisureComponent;

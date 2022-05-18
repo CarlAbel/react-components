@@ -1,12 +1,13 @@
 import TravelComponent from "./TravelComponent";
 import { useState, useEffect } from "react";
-import LeisureComponent from "./LeisureComponent";
+
+import SectionSquared from "./SectionSquared";
 
 const Fetch = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/sectionOutdoor")
+    fetch("http://localhost:3001/sectionSquared")
       .then((res) => {
         return res.json();
       })
@@ -17,8 +18,7 @@ const Fetch = () => {
   return (
     <div>
       <div></div>
-
-      {data && <LeisureComponent data={data} />}
+      {data && <SectionSquared data={data} />}
     </div>
   );
 };
