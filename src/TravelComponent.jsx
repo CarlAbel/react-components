@@ -4,18 +4,27 @@ import { css } from "@emotion/react";
 const TravelComponent = (props) => {
   const styles = {
     article: css`
-      margin: 10px;
-      width: 200px;
+      margin: 30px;
+      padding: 30px;
+      width: 33%;
+      height: 500px;
+
+      border: solid 1px red;
       border-radius: 24px;
-      background-color: red;
+
       & span {
-        padding: 30px;
+        text-transform: capitalize;
+        font-size: 26px;
+        font-weight: bold;
+        color: darkblue;
       }
       & h2 {
-        padding: 1em;
+        font-size: 32px;
       }
       & p {
-        padding: 2em;
+        font-size: 1.5em;
+        font-weight: 500;
+        color: #3a3a3a;
       }
     `,
   };
@@ -26,6 +35,7 @@ const TravelComponent = (props) => {
     <section>
       {data.map((section) => (
         <article css={styles.article} key={section.id}>
+          <img src="#" alt="#" />
           <span>{section.tag}</span>
           <h2>{section.title}</h2>
           <p>{section.body}</p>
