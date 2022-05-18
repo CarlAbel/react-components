@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
-const LeisureComponent = (props) => {
+const SectionSquared = (props) => {
   const styles = {
     section: css`
       display: flex;
@@ -48,4 +48,4 @@ const LeisureComponent = (props) => {
   );
 };
 
-export default LeisureComponent;
+export default SectionSquared;
