@@ -45,7 +45,6 @@ const SectionLatestNews = (props) => {
 
   return (
     <section css={styles.section}>
-      <h2>LATEST NEWS</h2>
       {data.map((section) => (
         <article css={styles.article} key={section.id}>
           <div css={styles.placeholderIMG}>
