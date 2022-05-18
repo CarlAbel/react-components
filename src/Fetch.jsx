@@ -1,13 +1,13 @@
 import TravelComponent from "./TravelComponent";
 import { useState, useEffect } from "react";
 
-import SectionCollection from "./SectionCollection";
+import SectionLatestNews from "./SectionLatestNews";
 
 const Fetch = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/sectionCollection")
+    fetch("http://localhost:3001/sectionLatestNews")
       .then((res) => {
         return res.json();
       })
@@ -18,7 +18,7 @@ const Fetch = () => {
   return (
     <div>
       <div></div>
-      {data && <SectionCollection data={data} />}
+      {data && <SectionLatestNews data={data} />}
     </div>
   );
 };
