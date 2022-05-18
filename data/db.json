@@ -74,7 +74,7 @@
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     }
   ],
-  "SectionLatestNews": [
+  "sectionLatestNews": [
     {
       "id": 13,
       "title": "Nature",
