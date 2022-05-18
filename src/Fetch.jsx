@@ -1,13 +1,13 @@
 import TravelComponent from "./TravelComponent";
 import { useState, useEffect } from "react";
 
-import SectionSquared from "./SectionSquared";
+import SectionCollection from "./SectionCollection";
 
 const Fetch = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/sectionSquared")
+    fetch("http://localhost:3001/sectionCollection")
       .then((res) => {
         return res.json();
       })
@@ -18,7 +18,7 @@ const Fetch = () => {
   return (
     <div>
       <div></div>
-      {data && <SectionSquared data={data} />}
+      {data && <SectionCollection data={data} />}
     </div>
   );
 };
