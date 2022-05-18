@@ -1,16 +1,14 @@
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react"
+import { css } from "@emotion/react";
 
-import Home from "./Home"
+import Fetch from "./Fetch";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <h1>hello world</h1>
-      <p>asdas</p>
+      <Fetch />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
