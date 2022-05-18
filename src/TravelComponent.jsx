@@ -1,24 +1,25 @@
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react"
+import { css } from "@emotion/react";
 
-const TravelComponent = ({ sections, title }) => {
-  const styles = {
-    h1: css`
-      padding: 10px;
-    `,
-  }
+const ListItem = (props) => {
+  return <li>{props.value}</li>;
+};
 
+const TravelComponent = (props) => {
+  const data = props.data;
+  const listItems = data.map(() => (
+    <ListItem key={data.toString()} value={data} />
+  ));
   return (
-    <div className="TravelComponent">
-      <span>{}</span>
-      {sections.map((section) => (
-        <div key={section}>
-          <h2 css={styles.h1}>{section.header.title}</h2>
-          <p>{}</p>
-        </div>
+    <section>
+      {data.map((section) => (
+        <article key={section.id}>
+          <h2>{section.title}</h2>
+          <p>{section.body}</p>
+        </article>
       ))}
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default TravelComponent
+export default TravelComponent;

@@ -1,136 +1,144 @@
 {
   "sections": [
     {
-      "header": [
-        {
-          "tag": "travel",
-          "title": "Surfing in Maldives",
-          "body": "Its windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming",
-          "image": "http://localhost:3000/../public/images/placeholder.jpg"
-        },
-        {
-          "tag": "leisure",
-          "title": "Outdoor Experience",
-          "body": "Its windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming"
-        }
-      ],
-      "info": [
-        {
-          "title": "On-time Delivery",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
-        },
-        {
-          "title": "Parcels",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
-        },
-        {
-          "title": "Quality Check",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
-        },
-        {
-          "title": "Customer Service",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
-        }
-      ],
-      "collection": [
-        {
-          "title": "Off-the-grid experience",
-          "author": "Melanie S.",
-          "collectionNumber": "10"
-        },
-        {
-          "title": "Shapes, triangles & fashion",
-          "author": "Saraha F.",
-          "collectionNumber": "1"
-        },
-        {
-          "title": "In-depth architecture",
-          "author": "Benhour",
-          "collectionNumber": "123"
-        }
-      ],
-      "carousel": [
-        {
-          "title": "Must see places",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        },
-        {
-          "title": "Food & Lifestyle",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        },
-        {
-          "title": "Fashion",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        }
-      ],
-      "latestNews": [
-        {
-          "title": "Nature",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        },
-        {
-          "title": "Animal Kingdom",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        },
-        {
-          "title": "Technology",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        },
-        {
-          "title": "Explore",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        },
-        {
-          "title": "Africa Zoo",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        }
-      ],
-      "rectangle": [
-        {
-          "title": "Architecture",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        },
-        {
-          "title": "Travel & leisure",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        },
-        {
-          "title": "Greenery",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        },
-        {
-          "title": "Beaches",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        }
-      ],
-      "newsDigest": [
-        {
-          "title": "Technology",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        },
-        {
-          "title": "Nature",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        },
-        {
-          "title": "Design",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        },
-        {
-          "title": "Development",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        }
-      ],
-      "TNYT": [
-        {
-          "title": "The New York Times",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        },
-        {
-          "title": "The New York Times",
-          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-        }
-      ]
+      "id": 1,
+      "title": "Surfing in Maldives",
+      "body": "Its windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming",
+      "image": "http://localhost:3000/public/images/placeholder.jpg",
+      "className": "travel"
+    },
+    {
+      "id": 2,
+      "title": "Outdoor Experience",
+      "body": "Its windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming"
+    },
+    {
+      "id": 3,
+      "title": "On-time Delivery",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
+    },
+    {
+      "id": 4,
+      "title": "Parcels",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
+    },
+    {
+      "id": 5,
+      "title": "Quality Check",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
+    },
+    {
+      "id": 6,
+      "title": "Customer Service",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
+    },
+    {
+      "id": 7,
+      "title": "Off-the-grid experience",
+      "author": "Melanie S.",
+      "collectionNumber": "10"
+    },
+    {
+      "id": 8,
+      "title": "Shapes, triangles & fashion",
+      "author": "Saraha F.",
+      "collectionNumber": "1"
+    },
+    {
+      "id": 9,
+      "title": "In-depth architecture",
+      "author": "Benhour",
+      "collectionNumber": "123"
+    },
+    {
+      "id": 10,
+      "title": "Must see places",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 11,
+      "title": "Food & Lifestyle",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 12,
+      "title": "Fashion",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 13,
+      "title": "Nature",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 14,
+      "title": "Animal Kingdom",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 15,
+      "title": "Technology",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 16,
+      "title": "Explore",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 17,
+      "title": "Africa Zoo",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 18,
+      "title": "Architecture",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 19,
+      "title": "Travel & leisure",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 20,
+      "title": "Greenery",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 21,
+      "title": "Beaches",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 22,
+      "title": "Technology",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 23,
+      "title": "Nature",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 24,
+      "title": "Design",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 25,
+      "title": "Development",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 26,
+      "title": "The New York Times",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
+    },
+    {
+      "id": 27,
+      "title": "The New York Times",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
     }
   ]
 }
