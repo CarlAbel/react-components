@@ -3,16 +3,20 @@ import { css } from "@emotion/react"
 
 const TravelComponent = ({ sections, title }) => {
   const styles = {
-    header: css`
+    h1: css`
       padding: 10px;
     `,
   }
 
   return (
     <div className="TravelComponent">
-      <span>{tag}</span>
-      <h2>{title}</h2>
-      <p>{text}</p>
+      <span>{}</span>
+      {sections.map((section) => (
+        <div key={section}>
+          <h2 css={styles.h1}>{section.header.title}</h2>
+          <p>{}</p>
+        </div>
+      ))}
     </div>
   )
 }
