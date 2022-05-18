@@ -1,17 +1,21 @@
 {
-  "sections": [
+  "sectionMaldives": [
     {
       "id": 1,
       "title": "Surfing in Maldives",
       "body": "Its windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming",
       "image": "http://localhost:3000/public/images/placeholder.jpg",
-      "className": "travel"
-    },
+      "tag": "travel"
+    }
+  ],
+  "sectionOutdoor": [
     {
       "id": 2,
       "title": "Outdoor Experience",
       "body": "Its windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming"
-    },
+    }
+  ],
+  "sectionSquared": [
     {
       "id": 3,
       "title": "On-time Delivery",
@@ -31,7 +35,9 @@
       "id": 6,
       "title": "Customer Service",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In?"
-    },
+    }
+  ],
+  "sectionCollection": [
     {
       "id": 7,
       "title": "Off-the-grid experience",
@@ -49,7 +55,9 @@
       "title": "In-depth architecture",
       "author": "Benhour",
       "collectionNumber": "123"
-    },
+    }
+  ],
+  "fakeNews": [
     {
       "id": 10,
       "title": "Must see places",
@@ -64,7 +72,9 @@
       "id": 12,
       "title": "Fashion",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    },
+    }
+  ],
+  "latestNews": [
     {
       "id": 13,
       "title": "Nature",
@@ -89,7 +99,9 @@
       "id": 17,
       "title": "Africa Zoo",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    },
+    }
+  ],
+  "rectangleSquares": [
     {
       "id": 18,
       "title": "Architecture",
@@ -109,7 +121,9 @@
       "id": 21,
       "title": "Beaches",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-    },
+    }
+  ],
+  "newsDigest": [
     {
       "id": 22,
       "title": "Technology",
@@ -129,7 +143,9 @@
       "id": 25,
       "title": "Development",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat vitae. Commodi, iure?"
-    },
+    }
+  ],
+  "TNYT": [
     {
       "id": 26,
       "title": "The New York Times",

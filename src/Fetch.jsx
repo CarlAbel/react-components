@@ -5,7 +5,7 @@ const Fetch = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/sections")
+    fetch("http://localhost:3001/sectionMaldives")
       .then((res) => {
         return res.json();
       })
