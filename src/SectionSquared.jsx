@@ -18,15 +18,18 @@ const SectionSquared = (props) => {
       border: solid 1px red;
       border-radius: 24px;
       & h2 {
-        font-size: 32px;
+        margin: 0%;
+        margin-top: 30px;
+        font-size: 26px;
       }
       & p {
-        font-size: 1.5em;
+        font-size: 20px;
         font-weight: 500;
         color: #3a3a3a;
       }
     `,
     placeholderIMG: css`
+      margin-left: 200px;
       border-radius: 24px;
     `,
   };
