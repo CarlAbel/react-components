@@ -23,13 +23,13 @@ const SectionNewsDigest = (props) => {
       padding: 10px;
       margin: 20px;
 
-      border: solid 1px orange;
-      border-radius: 24px;
+      border-bottom: solid 1px lightgrey;
+
       & h2 {
-        font-size: 32px;
+        font-size: 26px;
       }
       & p {
-        font-size: 1.5em;
+        font-size: 19px;
         font-weight: 500;
         color: #3a3a3a;
       }
