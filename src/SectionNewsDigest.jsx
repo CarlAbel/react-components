@@ -29,9 +29,9 @@ const SectionNewsDigest = (props) => {
         font-size: 26px;
       }
       & p {
-        font-size: 19px;
-        font-weight: 500;
-        color: #3a3a3a;
+        font-size: 18px;
+        font-weight: 400;
+        color: #7a7a7a;
       }
     `,
     placeholderIMG: css`
