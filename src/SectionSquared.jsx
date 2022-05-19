@@ -12,6 +12,7 @@ const SectionSquared = (props) => {
       flex-direction: column;
       justify-content: center;
 
+      background-color: #7e8fee;
       padding: 10px;
       margin: 20px;
       width: 100%;
