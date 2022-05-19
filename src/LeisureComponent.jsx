@@ -30,6 +30,7 @@ const LeisureComponent = (props) => {
         color: white;
       }
       & h2 {
+        margin: 0%;
         font-size: 56px;
       }
       & p {
@@ -50,7 +51,7 @@ const LeisureComponent = (props) => {
       width: 40%;
     `,
     container: css`
-      padding: 30px;
+      padding: 0px 30px 0px 30px;
       width: 60%;
     `,
   };
