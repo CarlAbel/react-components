@@ -30,7 +30,7 @@ const SectionNewsDigest = (props) => {
       }
       & p {
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 500;
         color: #7a7a7a;
       }
     `,
